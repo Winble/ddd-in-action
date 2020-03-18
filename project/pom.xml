@@ -20,6 +20,7 @@
         <module>project-domain</module>
         <module>project-infrastructure</module>
         <module>project-presentation</module>
+        <module>project-controller</module>
     </modules>
 
 
