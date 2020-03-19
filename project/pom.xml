@@ -20,8 +20,28 @@
         <module>project-domain</module>
         <module>project-infrastructure</module>
         <module>project-presentation</module>
-        <module>project-controller</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>project-application</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>project-domain</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>project-infrastructure</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>project-presentation</artifactId>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
     
