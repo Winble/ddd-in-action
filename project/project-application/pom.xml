@@ -11,5 +11,15 @@
 
     <artifactId>project-application</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>project-domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>project-infrastructure</artifactId>
+        </dependency>
+    </dependencies>
     
 </project>
