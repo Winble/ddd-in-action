@@ -10,23 +10,23 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-@EnableWebMvc
-@EnableSwagger2
-@Configuration
-@ComponentScan("com.winble.tutorial.presentation.controller")
+//@EnableWebMvc
+//@EnableSwagger2
+//@Configuration
+//@ComponentScan("com.winble.tutorial.presentation.controller")
 public class SwaggerConfig {
 
 
-    @Bean
-    public Docket createRestApi() {
-        return new Docket(DocumentationType.SWAGGER_2)
-            .apiInfo(this.apiInfo());
-    }
-
-    private ApiInfo apiInfo() {
-        return new ApiInfoBuilder()
-            .title("ddd-in-action")
-            .description("Test")
-            .build();
-    }
+//    @Bean
+//    public Docket createRestApi() {
+//        return new Docket(DocumentationType.SWAGGER_2)
+//            .apiInfo(this.apiInfo());
+//    }
+//
+//    private ApiInfo apiInfo() {
+//        return new ApiInfoBuilder()
+//            .title("ddd-in-action")
+//            .description("Test")
+//            .build();
+//    }
 }
