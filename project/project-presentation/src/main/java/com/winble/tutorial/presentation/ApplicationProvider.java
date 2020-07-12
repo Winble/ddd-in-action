@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ImportResource;
  * @author bowenzhang
  */
 @SpringBootApplication
-@ImportResource("/dubbo-provider.xml")
+//@ImportResource("/dubbo-provider.xml")
 public class ApplicationProvider {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(ApplicationProvider.class, args);

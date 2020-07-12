@@ -3,6 +3,7 @@ package com.winble.tutorial.presentation.service;
 import com.winble.tutorial.api.DemoService;
 import com.winble.tutorial.api.type.EchoResponse;
 import com.winble.tutorial.api.type.ResponseStatus;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.stereotype.Component;
 
 /**
@@ -10,7 +11,8 @@ import org.springframework.stereotype.Component;
  *
  * @author bowenzhang
  */
-@Component(value = "demoService")
+@Service
+//@Component(value = "demoService")
 public class DemoServiceImpl implements DemoService {
 
     @Override
