@@ -20,6 +20,7 @@
         <module>project-domain</module>
         <module>project-infrastructure</module>
         <module>project-presentation</module>
+        <module>project-api</module>
     </modules>
 
     <dependencyManagement>
@@ -42,6 +43,11 @@
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>project-presentation</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>project-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
