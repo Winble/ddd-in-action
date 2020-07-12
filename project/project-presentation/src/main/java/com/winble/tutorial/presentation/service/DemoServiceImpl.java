@@ -3,6 +3,7 @@ package com.winble.tutorial.presentation.service;
 import com.winble.tutorial.api.DemoService;
 import com.winble.tutorial.api.type.EchoResponse;
 import com.winble.tutorial.api.type.ResponseStatus;
+import org.apache.dubbo.config.annotation.DubboService;
 
 /**
  * Create on 2020/7/12
